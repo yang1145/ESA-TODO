@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 重置默认样式 */
+@layer base {
+  body {
+    @apply bg-blue-50 min-h-screen font-sans text-gray-800;
+  }
+  
+  #app {
+    @apply max-w-4xl mx-auto px-4 py-8;
+  }
+}
